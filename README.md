@@ -1,4 +1,4 @@
-# Mandelbrot Fractal Image renderer with a C++ core and Multi-Process parallelism
+# Mandelbrot Fractal Image renderer with a C++ core and Python Multi-Process and shared memory execution architecture
 
 This project is intended to explore a hybrid Python and C++ architecture for high-performance numerical computing using a distributed framework.
 
@@ -140,6 +140,8 @@ To link object file and create shared library for use by the Python wrapper:
 `g++ -shared -o libbrot.so brot.o`
 
 This creates a shared library called `libbrot.so` which is loaded by the Python code.
+
+> Note: The project provides a pre-compiled shared library. The library needs to be re-compiled only in the case of changes.
 
 ## Results:
 
