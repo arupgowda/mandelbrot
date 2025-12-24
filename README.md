@@ -103,7 +103,7 @@ Multi-process execution bypasses the GIL entirely as each process independently 
 
 The final result is a binary PPM image (brot.ppm) representing the Mandelbrot fractal set:
 
-![Mandelbrot image](./Images/brot.png)
+![Mandelbrot image](/Images/brot.png)
 
 ## Summary
 
