@@ -1,4 +1,4 @@
-# Mandelbrot Fractal Image renderer with a C++ core and Python Multi-Process and shared memory execution architecture
+# Mandelbrot Fractal Image renderer with a C++ core and a Python Multi-Process and shared memory execution architecture
 
 This project is intended to explore a hybrid Python and C++ architecture for high-performance numerical computing using a distributed framework.
 
